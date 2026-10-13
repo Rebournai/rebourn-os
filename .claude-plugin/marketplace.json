@@ -1,0 +1,18 @@
+{
+  "name": "rebourn-os",
+  "owner": { "name": "Rebourn.ai" },
+  "plugins": [
+    {
+      "name": "second-brain-obsidian",
+      "source": "./plugins/second-brain-obsidian",
+      "description": "AI-powered second brain plus consulting delivery toolkit: vault setup, optimizer, operator, MCP and team skills, plus client onboarding, opportunity assessment, reports and engagement tracking.",
+      "version": "2.0.2"
+    },
+    {
+      "name": "rebourn-cloud-os-builder",
+      "source": "./plugins/rebourn-cloud-os-builder",
+      "description": "Builds a second-brain structure in a synced cloud folder (Google Drive, OneDrive, iCloud, Dropbox).",
+      "version": "1.0.0"
+    }
+  ]
+}

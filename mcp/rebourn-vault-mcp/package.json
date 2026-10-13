@@ -1,0 +1,37 @@
+{
+  "name": "rebourn-vault-mcp",
+  "version": "2.1.0",
+  "description": "Rebourn Vault MCP: an OAuth-secured MCP server that gives Claude read/write access to an Obsidian vault synced through Relay.md.",
+  "author": "Rebourn.ai",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "deploy": "bash scripts/deploy.sh",
+    "secrets": "bash scripts/gen-secrets.sh",
+    "smoke": "npm run build && tsx scripts/smoke-test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "express": "^4.21.0",
+    "jose": "^5.9.6",
+    "yjs": "^13.6.20",
+    "y-websocket": "^2.1.0",
+    "ws": "^8.18.0",
+    "pocketbase": "^0.25.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.12",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
