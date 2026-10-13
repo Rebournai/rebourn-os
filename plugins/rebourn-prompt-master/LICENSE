@@ -1,0 +1,25 @@
+REBOURN.AI PUBLIC USE LICENSE
+
+Copyright (c) 2026 Rebourn.ai. All rights reserved.
+
+This repository (the "Software") contains skills, plugins, MCP server code,
+templates and documentation created by Rebourn.ai, except for third-party
+components that carry their own license notice (for example, files under
+`rebourn-relay-fork/`, which keep the upstream MIT license).
+
+Permission is granted to anyone to view the Software and to install and use it,
+unmodified or configured through its documented settings, for their own
+personal or internal business purposes, free of charge.
+
+Without Rebourn.ai's prior written permission you may not: (a) sell, resell,
+sublicense or offer the Software, or a service built mainly on it, to third
+parties; (b) republish or redistribute the Software, or a modified version of
+it, as your own product; or (c) remove copyright or license notices.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. REBOURN.AI IS
+NOT LIABLE FOR ANY CLAIM OR DAMAGES ARISING FROM ITS USE.
+
+Questions about licensing: https://rebourn.ai
+
+Prompt Master was adapted from a third-party base skill. Rebourn.ai-authored
+additions, edits and this license are Copyright (c) 2026 Rebourn.ai.

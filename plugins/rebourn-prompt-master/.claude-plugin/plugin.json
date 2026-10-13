@@ -1,0 +1,7 @@
+{
+  "name": "rebourn-prompt-master",
+  "displayName": "Rebourn Prompt Master",
+  "description": "Interviews you, then writes, rewrites or audits prompts and instruction files the way Anthropic recommends for the Claude 5 models.",
+  "version": "1.0.0",
+  "author": { "name": "Rebourn.ai" }
+}

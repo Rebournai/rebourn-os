@@ -1,7 +1,0 @@
-{
-  "name": "rebourn-cloud-os-builder",
-  "displayName": "Rebourn Cloud OS Builder",
-  "description": "Builds a second-brain structure hosted in a synced cloud folder (Google Drive, OneDrive, iCloud, Dropbox) and walks through sync setup.",
-  "version": "1.0.0",
-  "author": { "name": "Rebourn.ai" }
-}
