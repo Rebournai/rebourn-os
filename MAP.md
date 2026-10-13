@@ -16,6 +16,7 @@ rebourn-os/
 │   ├── ai-opportunity-assessment/
 │   ├── client-report/
 │   ├── engagement-tracker/
+│   ├── email-triage/
 │   └── rebourn-prompt-master/
 ├── .claude-plugin/marketplace.json      defines the installable package(s)
 ├── MAP.md  README.md  CHANGELOG.md  LICENSE
@@ -33,6 +34,7 @@ rebourn-os/
 | ai-opportunity-assessment | `skills/ai-opportunity-assessment` | none (download the folder) |
 | client-report | `skills/client-report` | none (download the folder) |
 | engagement-tracker | `skills/engagement-tracker` | none (download the folder) |
+| email-triage | `skills/email-triage` | none (download the folder) |
 | rebourn-prompt-master | `skills/rebourn-prompt-master` | `rebourn-prompt-master` 1.0.0 |
 
 ## Install a package
@@ -55,4 +57,5 @@ Replace the path with any skill folder above, then place the folder in your Clau
 | Where | What | License |
 |-------|------|---------|
 | `os/skills/team-os/reference/rebourn-relay-fork/` | Compiled fork of the Relay Obsidian plugin | MIT; notices in `LICENSE` and `THIRD-PARTY-NOTICES.md` |
+| `skills/email-triage/` | Rebourn.ai skill released under its own license | MIT; see `skills/email-triage/LICENSE` |
 | `os/skills/os-mcp/reference/relay-mcp-server/` | Relay MCP server source (depends on the MCP SDK and Relay.md's hosted service) | Repository license |
