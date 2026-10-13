@@ -1,31 +1,26 @@
 # Rebourn OS
 
-Claude plugins from [Rebourn.ai](https://rebourn.ai) for building an AI-powered second brain and delivering AI consulting work.
+Skills from [Rebourn.ai](https://rebourn.ai) for building an AI-powered second brain and delivering AI consulting work with Claude.
 
-## Plugins
+See **[MAP.md](MAP.md)** for what is in each folder and which package contains it.
 
-| Plugin | What it is | Version |
-|--------|-----------|---------|
-| `second-brain-obsidian` | Full edition: vault skills (`os-setup`, `os-optimizer`, `os-operator`, `os-mcp`, `team-os`) plus client delivery skills (`client-onboarding`, `ai-opportunity-assessment`, `client-report`, `engagement-tracker`) | 2.0.2 |
-| `second-brain-obsidian-os` | OS-only edition: the five vault skills, without the client delivery skills | 1.0.0 |
-| `rebourn-prompt-master` | Interviews you, then writes, rewrites or audits prompts and instruction files for the Claude 5 models | 1.0.0 |
+- `os/`: the OS skills that set up and run an Obsidian vault.
+- `skills/`: standalone skills. Download any folder on its own.
 
-Install either Second Brain edition, not both: they share skill names.
-
-## Install
-
-Add this repository as a plugin marketplace, then install a plugin from it:
+## Install a package
 
 ```
 /plugin marketplace add Rebournai/rebourn-os
-/plugin install second-brain-obsidian@rebourn-os
+/plugin install second-brain-obsidian --marketplace Rebournai/rebourn-os
+/plugin install second-brain-obsidian-os --marketplace Rebournai/rebourn-os
+/plugin install rebourn-prompt-master --marketplace Rebournai/rebourn-os
 ```
 
-Swap in `second-brain-obsidian-os` or `rebourn-prompt-master` for the plugin you want.
+Install either Second Brain edition, not both.
 
 ## Updating
 
-Each plugin's version is listed in `.claude-plugin/marketplace.json` and in its own `CHANGELOG.md`. Update by refreshing the marketplace and reinstalling the plugin.
+Versions are listed in `.claude-plugin/marketplace.json` and in `CHANGELOG.md`. Update by refreshing the marketplace and reinstalling the package.
 
 ## License
 

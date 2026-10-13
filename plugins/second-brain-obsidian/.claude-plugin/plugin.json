@@ -1,9 +1,0 @@
-{
-  "name": "second-brain-obsidian",
-  "displayName": "Second Brain (Obsidian)",
-  "description": "An AI-powered second brain plus a consulting delivery toolkit. Vault skills: /os-setup, /os-optimizer, /os-operator, /os-mcp, /team-os. Client delivery skills: /client-onboarding, /ai-opportunity-assessment, /client-report, /engagement-tracker. Solo or Business/Teams modes.",
-  "version": "2.0.2",
-  "author": {
-    "name": "Rebourn.ai"
-  }
-}

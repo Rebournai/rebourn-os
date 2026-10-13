@@ -1,9 +1,0 @@
-{
-  "name": "second-brain-obsidian-os",
-  "displayName": "Second Brain (Obsidian) — OS Only",
-  "description": "An AI-powered second brain for your own Obsidian vault. Skills: /os-setup, /os-optimizer, /os-operator, /os-mcp, /team-os. Solo or Business/Teams modes.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Rebourn.ai"
-  }
-}
