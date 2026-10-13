@@ -75,7 +75,7 @@ Write `Access-Policy.md` from these answers. It is a client-facing document — 
 
 Two vaults are in play. Be explicit about which you are building.
 
-**Their vault** (the client's own second brain): invoke the `os-setup` skill from inside the client's vault folder, in Business/Teams mode. Do not reimplement setup here — `os-setup` owns that. Pass through what Phase 2 captured so the interview does not re-ask questions the client has already answered.
+**Their vault** (the client's own second brain): set it up from inside the client's vault folder, in Business/Teams mode, using the vault-setup process the engagement calls for. Do not reimplement setup here. Pass through what Phase 2 captured so the setup interview does not re-ask questions the client has already answered.
 
 **Your client folder** (inside the consultancy vault): the three files above, plus an empty `Findings/` for assessment output and `Deliverables/` for anything sent to the client.
 

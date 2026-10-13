@@ -6,42 +6,6 @@
   },
   "plugins": [
     {
-      "name": "second-brain-obsidian",
-      "source": "./",
-      "description": "Full edition: the OS (vault setup, optimizer, operator, MCP, team skills) plus consulting delivery skills (client onboarding, opportunity assessment, reports, engagement tracking).",
-      "version": "2.0.2",
-      "author": {
-        "name": "Rebourn.ai"
-      },
-      "skills": [
-        "./os/skills/os-setup",
-        "./os/skills/os-optimizer",
-        "./os/skills/os-operator",
-        "./os/skills/os-mcp",
-        "./os/skills/team-os",
-        "./skills/client-onboarding",
-        "./skills/ai-opportunity-assessment",
-        "./skills/client-report",
-        "./skills/engagement-tracker"
-      ]
-    },
-    {
-      "name": "second-brain-obsidian-os",
-      "source": "./",
-      "description": "OS-only edition: the five vault skills (os-setup, os-optimizer, os-operator, os-mcp, team-os) without the consulting delivery skills.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Rebourn.ai"
-      },
-      "skills": [
-        "./os/skills/os-setup",
-        "./os/skills/os-optimizer",
-        "./os/skills/os-operator",
-        "./os/skills/os-mcp",
-        "./os/skills/team-os"
-      ]
-    },
-    {
       "name": "rebourn-prompt-master",
       "source": "./",
       "description": "Interviews you, then writes, rewrites or audits prompts and instruction files the way Anthropic recommends for the Claude 5 models.",
